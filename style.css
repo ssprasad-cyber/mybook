@@ -1,0 +1,397 @@
+*{
+    margin: 0%;
+}
+#container{
+     display: flex;
+     justify-content: space-between;
+     align-content: space-between;
+     padding-top: 20px;
+     font-family:  'Exo 2 regular', 'Noto Sans', 'Roboto', sans-serif; 
+}
+#box{
+    
+    display: flex;
+}
+#box .sec{
+    padding-top: 5px;
+    padding-left: 9px;
+    
+}
+
+
+
+
+/* search icon start */
+ input[type=search]:focus
+ {
+    
+    padding: 1px;
+ }
+ .inputs  input[type=search]
+ {
+    padding-left: 30px;    
+ }
+ .inputs
+ {
+    position: relative;
+ }
+ .inputs i 
+ {  
+ 
+    position: absolute;
+    left:0px;
+    bottom: 1px;
+    padding-left: 7px;
+    padding-bottom: 2px;
+ }
+ .inputs i::after{
+    color: transparent;
+ }
+ .inputs input
+ {
+    padding: 8px;
+  
+    border-style: dotted;
+    border-radius: 20px;
+    border-color: #F0F2F5;
+    color: black;
+    background-color: #F0F2F5;
+ }
+ #veh{
+    padding:8px;
+}
+/* search icon end */
+/*header icons*/
+#dar{
+    color: transparent;
+    background-color: transparent;
+    border: 0px ;
+
+}
+/*middle*/
+#applications span
+{
+    color:#000000 ; 
+    font-weight: 100;
+    font-size: 30px;  
+}
+
+#applications a{
+    padding-left: 60px;
+
+    
+}
+#applications{
+    margin-right: 90px;
+}
+/*middle*/
+/* right end */
+#options span
+{
+    color:#000000 ; 
+    font-weight: 900;
+    font-size: 30px;  
+    border: 1px solid #dee0e2 ;
+    background-color: #F0F2F5;
+    border-radius: 100px;
+    margin-right: 6px;
+    padding: 5px;
+}
+#options img{
+    color:#000000 ; 
+    font-weight: 900;
+    font-size: 30px;  
+    padding-bottom: 2px;
+    border: 2px solid #dee0e2;
+    background-color: #F0F2F5;
+    border-radius: 100px;
+    margin-right: 6px;
+    padding: 5px;
+
+}
+
+/* right end */
+
+
+/* header icon stop */
+/* main website */
+main{
+    font-family:  'Exo 2 regular', 'Noto Sans', 'Roboto', sans-serif; 
+    display: flex;
+    background-color: #dee0e2;
+    justify-content: space-between;
+    align-content: space-between;
+
+    
+    
+}
+/* top div end */
+
+/* left main */
+#div_top{
+    justify-content: center;
+}
+.list {
+    text-decoration: solid;
+    display: flex;
+    text-transform: capitalize;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+#div_top a:hover{
+   background-color: rgb(196, 196, 196);
+   border-radius: 5px;
+}
+.list h4{
+    padding-left: 10px;
+    color: #000000;
+}
+/* element color list */
+#name span{
+    color: rgb(0, 0, 0);
+    border: 1px solid #9ea0a2;
+    background-color: #ebeff4;
+    border-radius: 100px;
+} 
+#friends  span{
+    color: #0070f8;
+    
+}
+#recent span{
+    color: #0070f8;
+}
+#groups span{
+    color: white;
+    background-color: #0b54fe;
+    border: 1px solid #0b54fe;
+    border-radius: 100px;
+    padding: 1px;
+
+
+}
+#watch{
+    color: #000000;
+}
+#memory{
+    color: #000000;
+}
+#saved span{
+    color: black;
+}
+#pages span{
+    color: rgb(150, 3, 3) ;
+}
+/* element color list end*/
+#left_main{
+    padding-top: 20px;
+    padding-right: 10px;
+    position: -webkit-sticky;
+    
+}
+
+
+/* top div end */
+/* bottom div */
+#div_bottom {
+    text-decoration: solid;
+    
+    text-transform: capitalize;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+#div_bottom a:hover{
+    background-color: rgb(196, 196, 196);
+    border-radius: 5px;
+}
+
+#left_main:hover{
+    border-right:10px solid rgb(193, 192, 192);
+    border-radius: 4px;
+}
+#op{
+    display: flex;
+    margin-bottom: 20px;
+}
+#op h6{
+    color: transparent;
+    margin-left: 35px;
+    margin-top: 5px;
+}
+#op h6:hover{
+    color: rgb(43, 43, 233);
+}
+.short{
+    
+    display: flex;
+    text-decoration: solid;
+}
+#div_bottom a{
+    margin-top: 8px;
+}
+.short h4{
+    
+    padding-left: 9px;
+    color: #000000;
+    text-decoration: solid;
+    padding-top: 5px;
+}
+#par{
+    font-size: 10px;
+}
+/* bottom div end */
+
+/* left main end*/
+
+/* center main */
+#box1{
+    margin-top: 20px;
+    border: 10px solid white;
+    background-color: white;
+    border-radius: 20px;
+
+}
+#btitle{
+
+    display: flex;
+    padding: 20px;
+}
+#stories{
+    padding: 50px;
+}
+#stories img{
+    padding-left: 10px;
+}
+#stories img:hover{
+    width: +1px;
+}
+
+#btitle h3{
+    padding-bottom: 15px;
+    padding-top: 1px;
+    padding-left: 100px; 
+    padding-right: 100px;
+}
+#stry:hover{
+    padding-bottom: 15px;
+    border-bottom: 5px solid rgb(46, 46, 231);   
+}
+#rls:hover{
+    padding-bottom: 15px;
+    border-bottom: 5px solid rgb(46, 46, 231);  
+}
+#space{
+    display: flex;
+    padding-top: 13px; ;
+    padding-block-end: 10px;
+    justify-content: space-between;
+    
+}
+#space h4{
+    text-transform: uppercase;
+}
+#space a{
+    text-decoration: solid;
+    padding: 2px;
+}
+#space a:hover{
+    border: 2px solid #9ea0a2;
+    border-radius: 50px;
+}
+#comment{
+    border: 2px solid #9ea0a2;
+    border-radius: 50px;
+    margin-left: 10px;
+    padding: 10px;
+    padding-right: 250px;
+
+}
+#box2 {
+    border: 5px solid white;
+    background-color: white;
+    border-radius: 10px;
+    
+}
+#box2 img{
+    padding-top: 4px;
+    padding-left: 10%;
+    padding-right: 20%;
+}
+
+.box{
+    border: 5px solid white;
+    background-color: white;
+    border-radius: 15px;
+}
+.ytlogo{
+    display: flex;
+}
+.ytlogo h3{
+    padding-top: 3px;
+
+}
+.box h5{
+    padding-left: 58px;
+}
+.yttop{
+    display: flex;
+    justify-content: space-between;
+}
+.yttop button{
+    
+    border: 2px solid #9ea0a2;
+    background-color: white;
+    border-radius: 15px;
+    padding: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+   
+}
+#seemore{
+    border: 4px solid rgb(0, 0, 0);
+    background-color: white;
+    border-radius: 30px;
+    padding-left: 40%;
+}
+/* center main end */
+ 
+#right_main:hover{
+    border-left:10px solid rgb(193, 192, 192);
+    border-radius: 4px;
+}
+
+/* right main */
+#right_main{
+    padding-top: 20px;
+}
+#right_top{
+    padding: 19px;
+}
+#right_top img{
+    padding-top: 10px;
+}
+#right_top img:hover{
+    min-width: +270px;
+}
+#right_bottom{
+    padding-top: 15px;
+    margin-left: 20px;
+   
+    text-decoration: solid;
+    color: #000000;
+}
+#right_bottom a
+{ 
+    text-decoration: solid;
+    color: #000000;
+    
+   padding: 10px;
+    
+}
+
+/* right main end */
+/* main website */
+
+
+
