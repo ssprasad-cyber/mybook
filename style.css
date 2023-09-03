@@ -186,7 +186,7 @@ main{
 #left_main{
     padding-top: 20px;
     padding-right: 10px;
-    position: -webkit-sticky;
+    position: fixed;
     
 }
 
@@ -364,6 +364,7 @@ main{
 /* right main */
 #right_main{
     padding-top: 20px;
+    position:fixed; 
 }
 #right_top{
     padding: 19px;
